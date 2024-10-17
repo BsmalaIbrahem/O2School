@@ -1416,6 +1416,7 @@ ul.social_icon li a:hover {
      font-size: 24px;
      text-align: center;
      border-radius: 5px 5px 0 0;
+     white-space:nowrap;
    }
    .card {
      border: none;
@@ -1430,6 +1431,10 @@ ul.social_icon li a:hover {
      padding: 15px;
      cursor: pointer;
      text-align: right; /* Right align for Arabic text */
+   }
+   .card .card-header button{
+     white-space:normal !important;
+     word-wrap:break-word;
    }
    .card-header:hover {
      background-color: #f0f8ff;
